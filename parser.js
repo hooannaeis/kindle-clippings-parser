@@ -5,11 +5,17 @@ const path = require('path');
 const INPUT_FILE = 'my-clippings.txt';
 const OUTPUT_DIR = 'markdown_notes';
 const DELIMITER = '==========';
-const HIGHLIGHT_PREFIX = '- Ihre Markierung bei Position';
-const NOTE_PREFIX = '- Ihre Notiz bei Position';
+const HIGHLIGHT_PREFIX = new RegExp('- Ihre Markierung|- Your Highlight', "gi");
+const NOTE_PREFIX = new RegExp('- Ihre Notiz|- Your Note', "gi");
 const MAX_HEADING_LEVEL = 6;
 // Level 0 signifies standard paragraph/blockquote text (not a heading)
 const DEFAULT_HEADING_LEVEL = 0; 
+
+function getHierarchyFromNote(note) {
+    if (Number(note)) return Number(note)
+    if (Number(note.replace(/h/i, ""))) return Number(note.replace(/h/i, ""))
+    return undefined
+}
 
 /**
  * Main function to coordinate the two-pass parsing and generation process.
@@ -117,9 +123,9 @@ function parseBlockData(block, index) {
     const timestamp = timestampMatch ? timestampMatch[1].trim() : 'N/A';
     
     let isNote = false;
-    if (metadataLine.startsWith(NOTE_PREFIX)) {
+    if (metadataLine.search(NOTE_PREFIX) === 0) {
         isNote = true;
-    } else if (!metadataLine.startsWith(HIGHLIGHT_PREFIX)) {
+    } else if (!metadataLine.search(HIGHLIGHT_PREFIX) === 0) {
         // Unknown type, skip block
         console.warn(`WARN: Skipping block #${index + 1}. Unknown clipping type.`);
         return null;
@@ -160,8 +166,7 @@ last_interaction: "${data.lastTimestamp}"
         data.blocks.forEach(block => {
             if (block.isNote) {
                 // This is a Comment/Note for Hierarchy
-                const firstChar = block.content.charAt(0);
-                const headingLevel = parseInt(firstChar);
+                const headingLevel = getHierarchyFromNote(block.content)
 
                 if (!isNaN(headingLevel) && headingLevel >= 1 && headingLevel <= MAX_HEADING_LEVEL) {
                     currentLevel = headingLevel;
