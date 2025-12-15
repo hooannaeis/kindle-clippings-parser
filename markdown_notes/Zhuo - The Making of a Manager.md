@@ -5,7 +5,7 @@ last_interaction: "Freitag, 17. Oktober 2025 20:45:30"
 ---
 
 
-Great Managers Are Made, Not Born
+# Great Managers Are Made, Not Born
 
 I’ve made countless mistakes. But this is how anything in life goes: You try something. You figure out what worked and what didn’t. You file away lessons for the future.
 

@@ -1,7 +1,7 @@
 ---
 title: "Der Mönch, der seinen Ferrari verkaufte: Eine Parabel vom Glück (German Edition)"
 author: "Robin Sharma"
-last_interaction: "Freitag, 30. Juni 2023 22:31:10"
+last_interaction: "Montag, 3. Juli 2023 23:45:37"
 ---
 
 
@@ -22,3 +22,5 @@ Das Vorgehen ist ganz einfach: Wenn sich ein unerwünschter Gedanke im Zentrum d
 Es gibt keine Fehler, nur Lektionen. Betrachte Rückschläge als Gelegenheiten zu persönlicher Reifung und spirituellem Wachstum.
 
 Mache das Beste aus dir selbst, indem du die kleinen inneren Funken deiner Möglichkeiten zu den hellen Flammen der Verwirklichung entfachst.
+
+Die einzigen Grenzen deines Lebens sind diejenigen, die du dir selbst setzt.
