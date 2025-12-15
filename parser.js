@@ -176,7 +176,7 @@ last_interaction: "${data.lastTimestamp}"
                     markdownBody += `\n${headingPrefix} ${content}\n`;
                 } else {
                     // Render as a Blockquote (Default Level 0)
-                    const blockquoteContent = content.split('\n').map(line => `> ${line}`).join('\n');
+                    const blockquoteContent = content.split('\n').map(line => `${line}`).join('\n');
                     markdownBody += `\n${blockquoteContent}\n`;
                 }
 
