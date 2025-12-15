@@ -112,7 +112,7 @@ function parseBlockData(block, index) {
     // Combine names for full author name (e.g., "Julie Zhuo")
     const authorFullName = authorFirstName ? `${authorFirstName} ${authorLastName}` : authorLastName;
 
-    const fileName = `${authorLastName} - ${bookTitle}.md`.replace(/[:\/\?\*]/g, '_'); 
+    const fileName = `${authorLastName}-${bookTitle}.md`.replace(/[:\/\?\*]/g, '_'); 
 
     // --- B. Determine Clipping Type and Content & Extract Timestamp ---
     const metadataLine = lines[1];
