@@ -5,17 +5,16 @@ const path = require('path');
 const INPUT_FILE = 'my-clippings.txt';
 const OUTPUT_DIR = 'markdown_notes';
 const DELIMITER = '==========';
-const HIGHLIGHT_PREFIX = new RegExp('- Ihre Markierung|- Your Highlight', "gi");
-const NOTE_PREFIX = new RegExp('- Ihre Notiz|- Your Note', "gi");
+
+// Make these checks resilient to page/position variations
+const HIGHLIGHT_KEYWORD = 'Markierung'; 
+const NOTE_KEYWORD = 'Notiz';
+
 const MAX_HEADING_LEVEL = 6;
-// Level 0 signifies standard paragraph/blockquote text (not a heading)
 const DEFAULT_HEADING_LEVEL = 0; 
 
-function getHierarchyFromNote(note) {
-    if (Number(note)) return Number(note)
-    if (Number(note.replace(/h/i, ""))) return Number(note.replace(/h/i, ""))
-    return undefined
-}
+// Characters to sanitize in filenames: includes standard illegal chars + user specified (/\:|#^[]), replaced by '_'
+const ILLEGAL_FILENAME_CHARS = /[\/\\:\*\?\"<>\|#^\[\]]/g; 
 
 /**
  * Main function to coordinate the two-pass parsing and generation process.
@@ -62,7 +61,6 @@ function parseClippings() {
             bookData.set(fileName, {
                 title: bookTitle,
                 author: authorFullName,
-                // Assume the first timestamp is the last until a later one is found
                 lastTimestamp: timestamp, 
                 blocks: []
             });
@@ -70,7 +68,7 @@ function parseClippings() {
         
         const data = bookData.get(fileName);
         
-        // Since the file is processed sequentially, this will always hold the most recent timestamp seen so far
+        // Since the file is processed sequentially, this holds the most recent timestamp
         data.lastTimestamp = timestamp; 
 
         data.blocks.push({
@@ -109,24 +107,27 @@ function parseBlockData(block, index) {
     const bookTitle = match[1].trim();
     const authorLastName = match[2].trim();
     const authorFirstName = match[3].trim();
-    // Combine names for full author name (e.g., "Julie Zhuo")
     const authorFullName = authorFirstName ? `${authorFirstName} ${authorLastName}` : authorLastName;
 
-    const fileName = `${authorLastName}-${bookTitle}.md`.replace(/[:\/\?\*]/g, '_'); 
+    // --- FILENAME SANITIZATION ---
+    const rawFileName = `${authorLastName}-${bookTitle}.md`;
+    const fileName = rawFileName.replace(ILLEGAL_FILENAME_CHARS, '_'); 
+    // ---------------------------
 
     // --- B. Determine Clipping Type and Content & Extract Timestamp ---
     const metadataLine = lines[1];
     let content = lines.slice(2).join('\n').trim();
 
-    // Timestamp extraction: Look for "Hinzugefügt am " followed by anything until end of line
+    // Timestamp extraction
     const timestampMatch = metadataLine.match(/Hinzugefügt am (.*)$/);
     const timestamp = timestampMatch ? timestampMatch[1].trim() : 'N/A';
     
     let isNote = false;
-    if (metadataLine.search(NOTE_PREFIX) === 0) {
+    
+    // Robust check using includes for Markierung or Notiz
+    if (metadataLine.includes(NOTE_KEYWORD)) {
         isNote = true;
-    } else if (!metadataLine.search(HIGHLIGHT_PREFIX) === 0) {
-        // Unknown type, skip block
+    } else if (!metadataLine.includes(HIGHLIGHT_KEYWORD)) {
         console.warn(`WARN: Skipping block #${index + 1}. Unknown clipping type.`);
         return null;
     }
@@ -140,7 +141,6 @@ function parseBlockData(block, index) {
         content
     };
 }
-
 
 /**
  * Generates the final Markdown files using the structured data.
@@ -166,7 +166,8 @@ last_interaction: "${data.lastTimestamp}"
         data.blocks.forEach(block => {
             if (block.isNote) {
                 // This is a Comment/Note for Hierarchy
-                const headingLevel = getHierarchyFromNote(block.content)
+                const firstChar = block.content.charAt(0);
+                const headingLevel = parseInt(firstChar);
 
                 if (!isNaN(headingLevel) && headingLevel >= 1 && headingLevel <= MAX_HEADING_LEVEL) {
                     currentLevel = headingLevel;
