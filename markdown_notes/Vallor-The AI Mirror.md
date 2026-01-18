@@ -53,6 +53,8 @@ Chapter 4 The Thoughts the Civilized Keep
 
 Both the term (which first appears in late-medieval Latin, named for the ninth-century mathematician al-Khwārizmī) and its referents (which include the earliest mathematical procedures for counting, addition, and division) long predate modern computing.
 
+> ultimate consequencd of relying exlusively on AI
+
 We are addressed in the space of reasons whenever we are asked questions like, “Why have you done this to me?”, “Why should we believe that?”, “Why should we do that?”, “What could justify that?”, or “Why is this good?” Try for a moment to envision a society that can no longer meaningfully ask or answer such questions.
 
 As philosophers Bert Heinrichs and Sebastian Knell argued in their 2021 paper “Aliens in the Space of Reasons?”, the kinds of computational tools that we call AI are wholly incapable of standing with us in the space of reasons. One of the most powerful yet dangerous aspects of complex machine learning models is that they can derive solutions to knowledge tasks in a manner that entirely bypasses this space. AI tools can produce outputs in the form of reasons (claims, arguments, objections, justifications) that very much mirror our own. But they do this without replicating human thought processes. It’s like the difference between building a cabin by cutting down, splitting, and fastening logs, and erecting a prefabricated cabin made of premixed wood laminate that was extruded and baked in a mold.

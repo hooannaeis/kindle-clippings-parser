@@ -45,6 +45,8 @@ So to clarify the feedback under the label we need to “be specific” about tw
 
 while computers are organized around managing and accessing data, human intelligence is organized around stories.
 
+> the reson why two people can remember the same experience differently
+
 away from that’s wrong and toward tell me more: Let’s figure out why we see this differently.
 
 All things being equal, we’ll find a sympathetic story that explains and justifies our own behavior.
@@ -58,6 +60,8 @@ When something goes wrong and I am part of it, I will tend to attribute my actio
 USE YOUR REACTION AS A BLIND-SPOT ALERT
 
 When you notice yourself wondering What was their agenda? and What’s wrong with them?, make sure your next thought is I wonder if this feedback is sitting in my blind spot.
+
+> table with two columns
 
 How I See Me How You See Me Shy Aloof Upbeat Phony Spontaneous Flaky Truth Teller Nasty Passionate Emotional Smart Arrogant High Standards Hypercritical Outgoing Overbearing Quirky Annoying
 
@@ -91,7 +95,11 @@ Seeing Feedback in the System One Step Back: In what ways does the feedback refl
 
 Summary: SOME KEY IDEAS To understand the feedback you get, take three steps back: One Step Back: You + Me intersections. Are differences between us creating the friction? Two Steps Back: Role clashes. Is this partly a result of the roles we play in the organization or the family? Three Steps Back: Big picture. Are processes, policies, physical environment, or other players reinforcing the problem? Looking at systems: Reduces judgment Enhances accountability Uncovers root causes Look for patterns in your feedback. Is this a You + Everybody intersection? Take responsibility for your part.
 
+> chaptee
+
 Identity Triggers (and the Challenge of being ME)
+
+> sub chapter
 
 7 Learn how Wiring and Temperament Affect Your Story
 

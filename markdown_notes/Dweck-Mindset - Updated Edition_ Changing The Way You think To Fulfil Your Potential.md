@@ -33,6 +33,8 @@ Even in the growth mindset, failure can be a painful experience. But it doesn’
 
 And what’s so heroic, they would say, about having a gift?
 
+> hh3
+
 Grow Your Mindset
 
 People are all born with a love of learning, but the fixed mindset can undo it. Think of a time you were enjoying something—doing a crossword puzzle, playing a sport, learning a new dance. Then it became hard and you wanted out. Maybe you suddenly felt tired, dizzy, bored, or hungry. Next time this happens, don’t fool yourself. It’s the fixed mindset. Put yourself in a growth mindset. Picture your brain forming new connections as you meet the challenge and learn. Keep on going.
@@ -50,6 +52,8 @@ Float like a butterfly, Sting like a bee Your hands can’t hit What your eyes c
 “Eventually I learned that I was really looking for people who were filled with passion and a desire to get things done. A resume didn’t tell me much about that inner hunger.”
 
 He didn’t claim that he was a genius or that he was the greatest leader who ever lived. He promised to develop.
+
+> what i apprecite at work
 
 Immediately, he opened up dialogue and the channels for honest feedback. He quickly set to work asking executives what they liked and disliked about the company and what they thought needed changing.
 

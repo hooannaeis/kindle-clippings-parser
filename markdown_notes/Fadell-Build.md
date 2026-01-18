@@ -11,6 +11,8 @@ Adulthood is your opportunity to screw up continually until you learn how to scr
 
 Bill Gurley, the incredibly smart, wry, contrarian Silicon Valley VC and Texan deal maker, puts it this way: “I can’t make you the smartest or the brightest, but it’s doable to be the most knowledgeable. It’s possible to gather more information than somebody else.”
 
+> ic individual contributor
+
 As an IC, you need to occasionally do two things: 1. Look up: Look beyond the next deadline or project and forward to all the milestones coming up in the next few months. Then look all the way down to your ultimate goal: the mission.
 
 2. Look around: Get out of your comfort zone and away from the immediate team you’re on. Talk to the other functions in your company to understand their perspectives, needs, and concerns.
