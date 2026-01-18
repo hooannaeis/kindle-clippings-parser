@@ -188,9 +188,6 @@ last_interaction: "${data.lastTimestamp}"
     // 2. Process blocks to build the Markdown body
     data.blocks.forEach((block) => {
       if (block.isNote && block.content.length > 2) {
-        console.log(block.isNote);
-        console.log(block.content);
-        console.log(block.content.length);
         // this is a note with text from me
         markdownBody += `\n> ${block.content}\n`;
       } else if (block.isNote) {
