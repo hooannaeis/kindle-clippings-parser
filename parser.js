@@ -7,7 +7,7 @@ const OUTPUT_DIR = "markdown_notes";
 const DELIMITER = "==========";
 
 // Make these checks resilient to page/position variations
-const HIGHLIGHT_KEYWORD = "Markierung";
+const HIGHLIGHT_KEYWORD_REGEX = new RegExp("Markierung|Highlight");
 const NOTE_KEYWORD = "Notiz";
 
 const MAX_HEADING_LEVEL = 6;
@@ -88,6 +88,10 @@ function parseClippings() {
   console.log(`Markdown files are saved in the '${OUTPUT_DIR}' directory.`);
 }
 
+async function getLastInteractionFromFile(fileName) {
+  const file = await fs.readFileSync(fileName);
+}
+
 /**
  * Parses a single clipping block and extracts title, author, and timestamp.
  */
@@ -130,15 +134,23 @@ function parseBlockData(block, index) {
   let content = lines.slice(2).join("\n").trim();
 
   // Timestamp extraction
-  const timestampMatch = metadataLine.match(/Hinzugefügt am (.*)$/);
-  const timestamp = timestampMatch ? timestampMatch[1].trim() : "N/A";
+  const timestampMatch = metadataLine.match(
+    /(Hinzugefügt am|Added on) (.*)$/gi,
+  );
+  let timestamp = "N/A";
+  if (timestampMatch[0]?.split(", ")?.length) {
+    const rawTimestamp = timestampMatch[0]?.split(", ")[1].trim();
+    const translatedTimestamp = translateGermanDate(rawTimestamp);
+
+    timestamp = new Date(translatedTimestamp).toISOString();
+  }
 
   let isNote = false;
 
   // Robust check using includes for Markierung or Notiz
   if (metadataLine.includes(NOTE_KEYWORD)) {
     isNote = true;
-  } else if (!metadataLine.includes(HIGHLIGHT_KEYWORD)) {
+  } else if (!HIGHLIGHT_KEYWORD_REGEX.test(metadataLine)) {
     console.warn(`WARN: Skipping block #${index + 1}. Unknown clipping type.`);
     return null;
   }
@@ -219,6 +231,37 @@ last_interaction: "${data.lastTimestamp}"
     fs.writeFileSync(filePath, frontMatter + markdownBody, "utf8");
     console.log(`- Successfully wrote: ${fileName}`);
   });
+}
+
+/**
+ * Translates German month names in a string to English.
+ * Supports both full names (Januar) and short forms (Jan).
+ */
+function translateGermanDate(dateString) {
+  const monthMap = {
+    januar: "January",
+    februar: "February",
+    märz: "March",
+    april: "April",
+    mai: "May",
+    juni: "June",
+    juli: "July",
+    august: "August",
+    september: "September",
+    oktober: "October",
+    november: "November",
+    dezember: "December",
+  };
+
+  // Create a regex pattern from the keys (e.g., /januar|februar|.../gi)
+  const pattern = new RegExp(Object.keys(monthMap).join("|"), "gi");
+
+  // Replace the German month with the English one
+  const translated = dateString.replace(pattern, (matched) => {
+    return monthMap[matched.toLowerCase()];
+  });
+
+  return translated;
 }
 
 // --- Run the script ---
