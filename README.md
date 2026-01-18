@@ -39,7 +39,7 @@ You need to have **Node.js** installed on your system (version 14 or higher reco
 Execute the script from your terminal:
 
 ```bash
-node parseClippings.js
+node parser.js
 ```
 
 ### Output
@@ -62,17 +62,24 @@ Your Kindle device presents itself as a standard USB Mass Storage Device.
 
 ### 1\. Identify the Kindle Device
 
-After connecting your Kindle via USB, use the `dmesg` command to see recent kernel messages, or `fdisk -l` to list storage devices. The Kindle will usually appear as a device like `/dev/sdb`, `/dev/sdc`, or similar.
+After connecting your Kindle via USB, use  `lsblk` to list storage devices. The Kindle will usually appear as a device like `/dev/sda`, `/dev/sdb`, or similar. You can identify it by knowing roughly how much storage capacity (size) it has.
 
 ```bash
 # Check kernel messages for device name
-dmesg | tail
+lsblk
 
 # Example output snippet:
-# [ 1234.567890] sd 2:0:0:0: [sdb] Attached SCSI removable disk
+# NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+# sda           8:0    1 114.6G  0 disk
+# └─sda1        8:1    1 114.6G  0 part /home/harddrive
+# sdb           8:16   1   1.3G  0 disk
+# └─sdb1        8:17   1   1.3G  0 part 
+# mmcblk0     179:0    0  59.7G  0 disk
+# ├─mmcblk0p1 179:1    0   512M  0 part /boot/firmware
+# └─mmcblk0p2 179:2    0  59.2G  0 part /
 ```
 
-In the example above, the device is likely `/dev/sdb`.
+In the example above, the device is  `/dev/sdb1`.
 
 ### 2\. Create a Mount Point
 
