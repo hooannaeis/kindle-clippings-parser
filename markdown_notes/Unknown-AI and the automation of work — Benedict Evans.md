@@ -1,7 +1,7 @@
 ---
 title: "AI and the automation of work — Benedict Evans"
 author: "Unknown"
-last_interaction: "Dienstag, 15. August 2023 22:55:38"
+last_interaction: "2023-08-15T20:55:38.000Z"
 ---
 
 

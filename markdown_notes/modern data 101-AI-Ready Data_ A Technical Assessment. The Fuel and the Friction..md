@@ -1,7 +1,7 @@
 ---
 title: "AI-Ready Data_ A Technical Assessment. The Fuel and the Friction."
 author: "modern data 101"
-last_interaction: "Sonntag, 14. September 2025 21:55:57"
+last_interaction: "2025-09-14T19:55:57.000Z"
 ---
 
 

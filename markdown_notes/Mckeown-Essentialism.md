@@ -1,7 +1,7 @@
 ---
 title: "Essentialism"
 author: "Greg Mckeown"
-last_interaction: "Mittwoch, 29. September 2021 20:42:55"
+last_interaction: "2021-09-29T18:42:55.000Z"
 ---
 
 

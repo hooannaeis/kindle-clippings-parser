@@ -1,7 +1,7 @@
 ---
 title: "System Design Interview Twitter - A Frontend Deep Dive"
 author: "open.substack.com"
-last_interaction: "Samstag, 27. Dezember 2025 21:41:48"
+last_interaction: "2025-12-27T20:41:48.000Z"
 ---
 
 

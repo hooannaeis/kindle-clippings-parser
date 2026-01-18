@@ -1,7 +1,7 @@
 ---
 title: "What’s Changed in 50 Years of Computing_ Part 4"
 author: "open.substack.com"
-last_interaction: "Sonntag, 14. September 2025 22:20:39"
+last_interaction: "2025-09-14T20:20:39.000Z"
 ---
 
 

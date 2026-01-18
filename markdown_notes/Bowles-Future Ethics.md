@@ -1,7 +1,7 @@
 ---
 title: "Future Ethics"
 author: "Cennydd Bowles"
-last_interaction: "Mittwoch, 16. Juli 2025 22:41:37"
+last_interaction: "2025-07-16T20:41:37.000Z"
 ---
 
 

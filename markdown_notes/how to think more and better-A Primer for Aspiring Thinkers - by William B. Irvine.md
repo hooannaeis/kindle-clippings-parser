@@ -1,7 +1,7 @@
 ---
 title: "A Primer for Aspiring Thinkers - by William B. Irvine"
 author: "how to think more and better"
-last_interaction: "Freitag, 12. September 2025 23:44:11"
+last_interaction: "2025-09-12T21:44:11.000Z"
 ---
 
 

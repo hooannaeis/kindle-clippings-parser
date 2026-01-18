@@ -1,7 +1,7 @@
 ---
 title: "The AI Mirror"
 author: "Shannon Vallor"
-last_interaction: "Mittwoch, 27. August 2025 23:22:33"
+last_interaction: "2025-08-27T21:22:33.000Z"
 ---
 
 

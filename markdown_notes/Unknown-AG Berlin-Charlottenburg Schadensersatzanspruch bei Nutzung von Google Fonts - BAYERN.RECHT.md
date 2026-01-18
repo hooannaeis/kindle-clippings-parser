@@ -1,7 +1,7 @@
 ---
 title: "AG Berlin-Charlottenburg Schadensersatzanspruch bei Nutzung von Google Fonts - BAYERN.RECHT"
 author: "Unknown"
-last_interaction: "Dienstag, 9. Mai 2023 22:33:29"
+last_interaction: "2023-05-09T20:33:29.000Z"
 ---
 
 

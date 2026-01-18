@@ -1,7 +1,7 @@
 ---
 title: "how_googles_tensor_processing_unit_tpu_works"
 author: "Unknown"
-last_interaction: "Mittwoch, 7. Januar 2026 23:11:27"
+last_interaction: "2026-01-07T22:11:27.000Z"
 ---
 
 

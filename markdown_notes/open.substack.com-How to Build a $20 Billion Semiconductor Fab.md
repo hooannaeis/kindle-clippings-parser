@@ -1,7 +1,7 @@
 ---
 title: "How to Build a $20 Billion Semiconductor Fab"
 author: "open.substack.com"
-last_interaction: "Donnerstag, 11. September 2025 21:44:22"
+last_interaction: "2025-09-11T19:44:22.000Z"
 ---
 
 

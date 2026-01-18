@@ -1,7 +1,7 @@
 ---
 title: "How Average People Become High Achievers (Top 1%)"
 author: "open.substack.com"
-last_interaction: "Dienstag, 14. Oktober 2025 22:35:45"
+last_interaction: "2025-10-14T20:35:45.000Z"
 ---
 
 

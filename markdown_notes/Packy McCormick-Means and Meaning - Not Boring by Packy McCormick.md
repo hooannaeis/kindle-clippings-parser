@@ -1,7 +1,7 @@
 ---
 title: "Means and Meaning - Not Boring by Packy McCormick"
 author: "Packy McCormick"
-last_interaction: "Samstag, 6. September 2025 22:04:28"
+last_interaction: "2025-09-06T20:04:28.000Z"
 ---
 
 

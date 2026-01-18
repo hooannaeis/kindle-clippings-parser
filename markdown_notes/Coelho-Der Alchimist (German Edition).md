@@ -1,9 +1,15 @@
 ---
 title: "Der Alchimist (German Edition)"
 author: "Paulo Coelho"
-last_interaction: "Mittwoch, 16. Juni 2021 08:20:32"
+last_interaction: "2021-06-16T06:20:32.000Z"
 ---
 
+
+»Die Menschen träumen mehr von der Rückkehr als von der Abreise«,
+
+»Wenn wir die wirklich großen Schätze vor uns haben, erkennen wir es nie. Und weißt du auch, warum? Weil die Menschen nicht an Schätze glauben.«
+
+›Alles, was dir einmal passiert, passiert möglicherweise nie wieder. Aber alles, was zweimal passiert, wird sicher auch ein drittes Mal passieren.‹«
 
 Für sie war ein Tag wie der andere, und wenn alle Tage gleich sind, dann bemerkt man auch nicht mehr die guten Dinge, die einem im Leben widerfahren.
 

@@ -1,7 +1,7 @@
 ---
 title: "Ethics and Data Science"
 author: "Mike;Mason, Hilary;Patil, DJ Loukides"
-last_interaction: "Dienstag, 28. Dezember 2021 08:04:45"
+last_interaction: "2021-12-28T07:04:45.000Z"
 ---
 
 

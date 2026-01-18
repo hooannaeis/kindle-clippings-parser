@@ -1,7 +1,7 @@
 ---
 title: "The Making of a Manager"
 author: "Julie Zhuo"
-last_interaction: "Freitag, 17. Oktober 2025 20:45:30"
+last_interaction: "2025-10-17T18:45:30.000Z"
 ---
 
 

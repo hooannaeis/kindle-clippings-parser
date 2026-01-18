@@ -1,7 +1,7 @@
 ---
 title: "The dawn of the post-literate society - by James Marriott"
 author: "open.substack.com"
-last_interaction: "Samstag, 27. September 2025 08:05:42"
+last_interaction: "2025-09-27T06:05:42.000Z"
 ---
 
 

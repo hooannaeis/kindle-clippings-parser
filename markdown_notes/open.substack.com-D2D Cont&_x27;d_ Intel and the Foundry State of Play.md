@@ -1,7 +1,7 @@
 ---
 title: "D2D Cont&#x27;d_ Intel and the Foundry State of Play"
 author: "open.substack.com"
-last_interaction: "Sonntag, 31. August 2025 14:38:13"
+last_interaction: "2025-08-31T12:38:13.000Z"
 ---
 
 

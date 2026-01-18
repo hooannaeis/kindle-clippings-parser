@@ -1,7 +1,7 @@
 ---
 title: "Harry Potter och Hemligheternas kammare: 2 (Swedish Edition)"
 author: "J.K. Rowling"
-last_interaction: "Mittwoch, 17. November 2021 16:21:02"
+last_interaction: "2021-11-17T15:21:02.000Z"
 ---
 
 

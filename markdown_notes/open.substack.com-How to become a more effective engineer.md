@@ -1,7 +1,7 @@
 ---
 title: "How to become a more effective engineer"
 author: "open.substack.com"
-last_interaction: "Samstag, 11. Oktober 2025 21:57:07"
+last_interaction: "2025-10-11T19:57:07.000Z"
 ---
 
 

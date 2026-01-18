@@ -1,7 +1,7 @@
 ---
 title: "Die Schuld, die man trägt: Ein Fall für Sebastian Bergman (German Edition)"
 author: "Michael;Rosenfeldt, Hans Hjorth"
-last_interaction: "Sonntag, 21. Januar 2024 18:56:08"
+last_interaction: "2024-01-21T17:56:08.000Z"
 ---
 
 

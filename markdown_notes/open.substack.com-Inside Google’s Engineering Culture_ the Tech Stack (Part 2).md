@@ -1,7 +1,7 @@
 ---
 title: "Inside Google’s Engineering Culture_ the Tech Stack (Part 2)"
 author: "open.substack.com"
-last_interaction: "Samstag, 11. Oktober 2025 22:25:42"
+last_interaction: "2025-10-11T20:25:42.000Z"
 ---
 
 

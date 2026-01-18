@@ -1,7 +1,7 @@
 ---
 title: "literally just do things - by Erifili Gounari"
 author: "open.substack.com"
-last_interaction: "Sonntag, 5. Oktober 2025 20:57:35"
+last_interaction: "2025-10-05T18:57:35.000Z"
 ---
 
 

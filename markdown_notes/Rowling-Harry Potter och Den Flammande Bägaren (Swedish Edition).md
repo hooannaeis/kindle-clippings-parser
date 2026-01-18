@@ -1,7 +1,7 @@
 ---
 title: "Harry Potter och Den Flammande Bägaren (Swedish Edition)"
 author: "J.K. Rowling"
-last_interaction: "Freitag, 5. Januar 2024 20:05:50"
+last_interaction: "2024-01-05T19:05:50.000Z"
 ---
 
 

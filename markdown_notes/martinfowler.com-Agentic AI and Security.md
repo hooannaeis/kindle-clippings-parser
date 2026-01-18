@@ -1,7 +1,7 @@
 ---
 title: "Agentic AI and Security"
 author: "martinfowler.com"
-last_interaction: "Donnerstag, 11. Dezember 2025 22:35:51"
+last_interaction: "2025-12-11T21:35:51.000Z"
 ---
 
 

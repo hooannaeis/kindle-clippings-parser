@@ -1,7 +1,7 @@
 ---
 title: "The Information"
 author: "James Gleick"
-last_interaction: "Freitag, 16. Januar 2026 22:53:01"
+last_interaction: "2026-01-16T21:53:01.000Z"
 ---
 
 

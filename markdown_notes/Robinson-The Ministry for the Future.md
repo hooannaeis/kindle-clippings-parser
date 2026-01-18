@@ -1,7 +1,7 @@
 ---
 title: "The Ministry for the Future"
 author: "Kim Stanley Robinson"
-last_interaction: "Mittwoch, 2. November 2022 17:18:08"
+last_interaction: "2022-11-02T16:18:08.000Z"
 ---
 
 

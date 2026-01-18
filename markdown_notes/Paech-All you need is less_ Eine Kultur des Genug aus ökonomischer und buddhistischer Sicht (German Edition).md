@@ -1,7 +1,7 @@
 ---
 title: "All you need is less: Eine Kultur des Genug aus ökonomischer und buddhistischer Sicht (German Edition)"
 author: "Niko;Folkers, Manfred Paech"
-last_interaction: "Sonntag, 15. August 2021 23:26:06"
+last_interaction: "2021-08-15T21:26:06.000Z"
 ---
 
 

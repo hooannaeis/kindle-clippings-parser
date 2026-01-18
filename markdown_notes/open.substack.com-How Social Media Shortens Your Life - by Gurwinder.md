@@ -1,7 +1,7 @@
 ---
 title: "How Social Media Shortens Your Life - by Gurwinder"
 author: "open.substack.com"
-last_interaction: "Mittwoch, 10. September 2025 22:15:44"
+last_interaction: "2025-09-10T20:15:44.000Z"
 ---
 
 

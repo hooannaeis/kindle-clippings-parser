@@ -1,7 +1,7 @@
 ---
 title: "The Robert C. Martin Clean Code Collection (Collection)"
 author: "Robert C. Martin"
-last_interaction: "Freitag, 2. Februar 2024 00:58:50"
+last_interaction: "2024-02-01T23:58:50.000Z"
 ---
 
 

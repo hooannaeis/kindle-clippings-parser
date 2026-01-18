@@ -1,7 +1,7 @@
 ---
 title: "EU-US Data Privacy Framework Update des Privacy Shield mit Augenmaß - BAYERN.RECHT"
 author: "Unknown"
-last_interaction: "Sonntag, 7. Mai 2023 23:35:14"
+last_interaction: "2023-05-07T21:35:14.000Z"
 ---
 
 

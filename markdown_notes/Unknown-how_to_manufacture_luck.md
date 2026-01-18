@@ -1,7 +1,7 @@
 ---
 title: "how_to_manufacture_luck"
 author: "Unknown"
-last_interaction: "Dienstag, 13. Januar 2026 22:32:20"
+last_interaction: "2026-01-13T21:32:20.000Z"
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "How Kafka Works - by Neo Kim and Stanislav Kozlovski"
 author: "open.substack.com"
-last_interaction: "Montag, 29. Dezember 2025 21:10:44"
+last_interaction: "2025-12-29T20:10:44.000Z"
 ---
 
 

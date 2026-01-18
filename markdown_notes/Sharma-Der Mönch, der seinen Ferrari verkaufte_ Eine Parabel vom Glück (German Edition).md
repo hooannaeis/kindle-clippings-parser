@@ -1,7 +1,7 @@
 ---
 title: "Der Mönch, der seinen Ferrari verkaufte: Eine Parabel vom Glück (German Edition)"
 author: "Robin Sharma"
-last_interaction: "Montag, 3. Juli 2023 23:45:37"
+last_interaction: "2023-07-03T21:45:37.000Z"
 ---
 
 

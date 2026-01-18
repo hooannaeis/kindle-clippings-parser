@@ -1,7 +1,7 @@
 ---
 title: "AI Governance | AI Governance: Learning from the Past"
 author: "Former GC & Tech Executive Alyssa Harvey Dawson Board Member"
-last_interaction: "Sonntag, 7. Dezember 2025 22:26:49"
+last_interaction: "2025-12-07T21:26:49.000Z"
 ---
 
 

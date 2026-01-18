@@ -1,7 +1,7 @@
 ---
 title: "LG München I Domainübergreifende Aufzeichnung und Auswertung des Nutzerverhaltens - BAYERN.RECHT"
 author: "Unknown"
-last_interaction: "Dienstag, 2. Mai 2023 17:52:12"
+last_interaction: "2023-05-02T15:52:12.000Z"
 ---
 
 

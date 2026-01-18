@@ -1,7 +1,7 @@
 ---
 title: "Build"
 author: "Tony Fadell"
-last_interaction: "Samstag, 24. September 2022 23:06:39"
+last_interaction: "2022-09-24T21:06:39.000Z"
 ---
 
 

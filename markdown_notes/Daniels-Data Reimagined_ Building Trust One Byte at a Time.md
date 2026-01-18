@@ -1,7 +1,7 @@
 ---
 title: "Data Reimagined: Building Trust One Byte at a Time"
 author: "Jodi;Daniels, Justin Daniels"
-last_interaction: "Sonntag, 5. März 2023 10:06:09"
+last_interaction: "2023-03-05T09:06:09.000Z"
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "AWS Scale - by Neo Kim - The System Design Newsletter"
 author: "open.substack.com"
-last_interaction: "Samstag, 27. Dezember 2025 22:07:42"
+last_interaction: "2025-12-27T21:07:42.000Z"
 ---
 
 

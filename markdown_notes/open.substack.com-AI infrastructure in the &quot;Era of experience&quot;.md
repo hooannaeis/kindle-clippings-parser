@@ -1,7 +1,7 @@
 ---
 title: "AI infrastructure in the &quot;Era of experience&quot;"
 author: "open.substack.com"
-last_interaction: "Sonntag, 30. November 2025 22:35:58"
+last_interaction: "2025-11-30T21:35:58.000Z"
 ---
 
 

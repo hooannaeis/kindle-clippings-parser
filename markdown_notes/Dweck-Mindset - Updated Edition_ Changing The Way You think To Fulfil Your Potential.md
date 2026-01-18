@@ -1,7 +1,7 @@
 ---
 title: "Mindset - Updated Edition: Changing The Way You think To Fulfil Your Potential"
 author: "Carol S. Dweck"
-last_interaction: "Montag, 19. August 2024 08:49:49"
+last_interaction: "2024-08-19T06:49:49.000Z"
 ---
 
 

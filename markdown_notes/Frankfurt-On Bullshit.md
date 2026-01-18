@@ -1,7 +1,7 @@
 ---
 title: "On Bullshit"
 author: "Harry G. Frankfurt"
-last_interaction: "Mittwoch, 2. August 2023 11:29:29"
+last_interaction: "2023-08-02T09:29:29.000Z"
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "TBM 390_ Governance by Principle, Not by Template"
 author: "open.substack.com"
-last_interaction: "Montag, 1. Dezember 2025 21:57:50"
+last_interaction: "2025-12-01T20:57:50.000Z"
 ---
 
 

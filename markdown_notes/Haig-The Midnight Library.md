@@ -1,7 +1,7 @@
 ---
 title: "The Midnight Library"
 author: "Matt Haig"
-last_interaction: "Montag, 30. August 2021 19:08:10"
+last_interaction: "2021-08-30T17:08:10.000Z"
 ---
 
 

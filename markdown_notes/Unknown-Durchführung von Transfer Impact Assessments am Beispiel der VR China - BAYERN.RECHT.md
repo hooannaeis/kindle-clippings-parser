@@ -1,7 +1,7 @@
 ---
 title: "Durchführung von Transfer Impact Assessments am Beispiel der VR China - BAYERN.RECHT"
 author: "Unknown"
-last_interaction: "Freitag, 12. Mai 2023 12:22:07"
+last_interaction: "2023-05-12T10:22:07.000Z"
 ---
 
 

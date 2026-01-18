@@ -1,7 +1,7 @@
 ---
 title: "The Phoenix Project"
 author: "Gene;Behr, Kevin;Spafford, George Kim"
-last_interaction: "Donnerstag, 11. August 2022 11:26:53"
+last_interaction: "2022-08-11T09:26:53.000Z"
 ---
 
 

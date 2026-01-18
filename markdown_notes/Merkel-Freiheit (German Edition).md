@@ -1,7 +1,7 @@
 ---
 title: "Freiheit (German Edition)"
 author: "Angela;Baumann, Beate Merkel"
-last_interaction: "Donnerstag, 23. Januar 2025 21:25:04"
+last_interaction: "2025-01-23T20:25:04.000Z"
 ---
 
 

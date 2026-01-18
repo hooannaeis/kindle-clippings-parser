@@ -1,7 +1,7 @@
 ---
 title: "Faust: Der Tragödie erster Teil (German Edition)"
 author: "Johann Wolfgang von Goethe"
-last_interaction: "Mittwoch, 19. November 2025 22:41:43"
+last_interaction: "2025-11-19T21:41:43.000Z"
 ---
 
 

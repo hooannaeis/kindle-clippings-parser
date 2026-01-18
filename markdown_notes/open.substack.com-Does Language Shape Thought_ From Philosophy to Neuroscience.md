@@ -1,7 +1,7 @@
 ---
 title: "Does Language Shape Thought_ From Philosophy to Neuroscience"
 author: "open.substack.com"
-last_interaction: "Sonntag, 2. November 2025 21:08:44"
+last_interaction: "2025-11-02T20:08:44.000Z"
 ---
 
 
