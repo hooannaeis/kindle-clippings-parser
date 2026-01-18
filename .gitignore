@@ -1,2 +1,4 @@
 my-clippings.txt
 .DS_Store
+node_modules/*
+bun.lock
