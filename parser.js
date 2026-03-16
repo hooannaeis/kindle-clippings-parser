@@ -52,12 +52,26 @@
 
     console.log(`Found ${clippingBlocks.length} clipping blocks to process.`);
 
+    // --- Preprocessing: Remove iterative duplicate notes ---
+    // New Kindle devices save intermediate keystrokes as separate note entries.
+    // e.g. "#google-", "#google-mer", "#google-meridian" all at the same Position.
+    // We keep only the final (longest) version by checking:
+    //   1. Consecutive blocks share the same position metadata
+    //   2. The content of block N is a prefix of block N+1 (indexOf === 0)
+    const deduplicatedBlocks = deduplicateIterativeNotes(clippingBlocks);
+    const removedCount = clippingBlocks.length - deduplicatedBlocks.length;
+    if (removedCount > 0) {
+      console.log(
+        `Removed ${removedCount} iterative duplicate note(s) during preprocessing.`,
+      );
+    }
+
     // Map to hold all structured data: Map<fileName, { title, author, lastTimestamp, blocks: [] }>
     const bookData = new Map();
 
     // --- Pass 1: Parse and Structure Data ---
-    for (let index = 0; index < clippingBlocks.length; index++) {
-      const block = clippingBlocks[index];
+    for (let index = 0; index < deduplicatedBlocks.length; index++) {
+      const block = deduplicatedBlocks[index];
 
       const parsedBlock = parseBlockData(block, index);
       if (!parsedBlock) continue;
@@ -101,6 +115,80 @@
 
     console.log("\n--- Parsing Complete ---");
     console.log(`Markdown files are saved in the '${OUTPUT_DIR}' directory.`);
+  }
+
+  /**
+   * Extracts the position identifier from a clipping block's metadata line.
+   * Handles both German ("bei Position X") and English ("at location X") formats.
+   * Returns the position string (e.g. "196") or null if not found.
+   */
+  function extractPosition(block) {
+    const lines = block
+      .split("\n")
+      .map((line) => line.trim())
+      .filter((line) => line.length > 0);
+    if (lines.length < 2) return null;
+
+    const metadataLine = lines[1];
+    // Match "bei Position 196" or "at location 196" (single position, not a range)
+    const match = metadataLine.match(
+      /(?:bei Position|at location)\s+(\d+(?:-\d+)?)\s*\|/i,
+    );
+    return match ? match[1] : null;
+  }
+
+  /**
+   * Extracts the content text from a raw clipping block (lines after the metadata).
+   */
+  function extractContent(block) {
+    const lines = block
+      .split("\n")
+      .map((line) => line.trim())
+      .filter((line) => line.length > 0);
+    return lines.slice(2).join("\n").trim();
+  }
+
+  /**
+   * Removes iterative duplicate notes that result from the Kindle saving
+   * intermediate keystrokes as separate entries.
+   *
+   * Two consecutive blocks are considered duplicates when:
+   *   1. They share the same position metadata
+   *   2. The content of block N appears at indexOf === 0 in block N+1
+   *      (i.e., N's content is a prefix of N+1's content)
+   *
+   * In such a run of duplicates, only the last (longest) entry is kept.
+   */
+  function deduplicateIterativeNotes(blocks) {
+    if (blocks.length === 0) return blocks;
+
+    const result = [];
+
+    for (let i = 0; i < blocks.length; i++) {
+      const currentPos = extractPosition(blocks[i]);
+      const currentContent = extractContent(blocks[i]);
+
+      // Look ahead: is the next block a continuation of this one?
+      if (i + 1 < blocks.length) {
+        const nextPos = extractPosition(blocks[i + 1]);
+        const nextContent = extractContent(blocks[i + 1]);
+
+        if (
+          currentPos !== null &&
+          nextPos !== null &&
+          currentPos === nextPos &&
+          currentContent.length > 0 &&
+          nextContent.indexOf(currentContent) === 0
+        ) {
+          // This block is a prefix of the next one at the same position — skip it
+          continue;
+        }
+      }
+
+      result.push(blocks[i]);
+    }
+
+    return result;
   }
 
   /**

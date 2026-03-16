@@ -1,7 +1,7 @@
 ---
 title: "The Information"
 author: "James Gleick"
-last_interaction: "2026-01-16T21:53:01.000Z"
+last_interaction: "2026-02-04T21:45:54.000Z"
 ---
 
 
@@ -42,3 +42,15 @@ Not that anyone knew what electricity was. “An invisible, intangible, imponder
 > in the early days the mere use of the technology was seen as a proxy for productivity. similarly todyay with  AI
 
 “Existence of telephone traffic is essentially an indication that time is being saved,” the department commented.
+
+# 7 | INFORMATION THEORY
+
+# 8 | THE INFORMATIONAL TURN
+
+# 11 | INTO THE MEME POOL
+
+Ideas cause ideas and help evolve new ideas.
+
+“This may not be what George Washington looked like then,” a tour guide was overheard saying of the Gilbert Stuart painting at the Metropolitan Museum of Art, “but this is what he looks like now.” Exactly.
+
+“Where is the wisdom we have lost in knowledge? / Where is the knowledge we have lost in information?”)

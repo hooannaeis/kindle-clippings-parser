@@ -96,7 +96,7 @@ Use the `mount` command with the identified device path and the created mount po
 
 ```bash
 # Syntax: sudo mount -t [filesystem_type] [device_path] [mount_point]
-sudo mount -t vfat /dev/sdb /mnt/kindle
+sudo mount -t vfat /dev/sdb1 /mnt/kindle
 ```
 
 > **Note:** Replace `/dev/sdb` with the actual device name identified in Step 1. If your Kindle has multiple partitions, ensure you mount the correct one containing the clippings.
