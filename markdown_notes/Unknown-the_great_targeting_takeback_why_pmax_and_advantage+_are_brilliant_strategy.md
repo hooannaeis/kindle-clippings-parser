@@ -9,7 +9,7 @@ last_interaction: "2026-01-28T21:36:55.000Z"
 
 For most of advertising history, targeting was blunt because media itself was blunt.
 
-But there’s an important nuance. Targeting was still present, it was just implicit. The buyer chose which shelf to rent. The publisher built the shelf.
+But there's an important nuance. Targeting was still present, it was just implicit. The buyer chose which shelf to rent. The publisher built the shelf.
 
 ## Stage 1: Contextual and program-based targeting (the content is the proxy)
 
@@ -39,7 +39,7 @@ At a systems level, the industry just moved from buyer-defined targeting to publ
 
 Broad reach does not just help brands grow. It thickens auctions. When constraints loosen, more advertisers compete over more impressions, and the market clears at higher prices.
 
-Now we hit the part everyone tries to avoid because it forces honesty. If platforms run the allocator, the platform’s reporting becomes less neutral.
+Now we hit the part everyone tries to avoid because it forces honesty. If platforms run the allocator, the platform's reporting becomes less neutral.
 
 lift studies tend to be channel-contained. They tell you the incremental effect of ads within that platform under a given design.
 

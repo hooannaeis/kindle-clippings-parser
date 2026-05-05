@@ -1,7 +1,7 @@
 ---
 title: "The Information"
 author: "James Gleick"
-last_interaction: "2026-02-04T21:45:54.000Z"
+last_interaction: "2026-02-11T21:52:39.000Z"
 ---
 
 
@@ -54,3 +54,7 @@ Ideas cause ideas and help evolve new ideas.
 “This may not be what George Washington looked like then,” a tour guide was overheard saying of the Gilbert Stuart painting at the Metropolitan Museum of Art, “but this is what he looks like now.” Exactly.
 
 “Where is the wisdom we have lost in knowledge? / Where is the knowledge we have lost in information?”)
+
+It is not the amount of knowledge that makes a brain. It is not even the distribution of knowledge. It is the interconnectedness.
+
+“Beauty is in the eye of the beholder, and information is in the head of the receiver,” says Fred Dretske.
