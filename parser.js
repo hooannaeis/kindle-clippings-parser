@@ -209,16 +209,9 @@
     // Captures: 1=Title, 2=Last Name, 3=First Name (optional)
     const match = titleAndAuthorLine.match(/(.*)\s\(([^,]+),?\s?([^)]*)\)/);
 
-    if (!match) {
-      console.warn(
-        `WARN: Skipping block #${index + 1}. Could not parse title/author.`,
-      );
-      return null;
-    }
-
-    const bookTitle = match[1].trim();
-    const authorLastName = match[2].trim();
-    const authorFirstName = match[3].trim();
+    const bookTitle = match?.[1]?.trim() || titleAndAuthorLine;
+    const authorLastName = match?.[2]?.trim() || "Unknown";
+    const authorFirstName = match?.[3]?.trim() || "Unknown";
     const authorFullName = authorFirstName
       ? `${authorFirstName} ${authorLastName}`
       : authorLastName;
